@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>L’AEROCLUB ACF2L</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+</head>
+<header>
+  <!--Le menu-->
+  <nav class="navbar navbar-expand-lg fixed-top menuavion">
+    <a class="navbar-brand" href="#">
+        <img src="img/aeroclublogo.png" alt="Logo" style="height: 60px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+      aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav text-light mx-auto">
+            <li class="nav-item"><a class="nav-link" href="#accueil">ACCUEIL</a></li>
+            <li class="nav-item"><a class="nav-link" href="#moyenspedagogiques">MOYENS PÉDAGOGIQUES</a></li>
+            <li class="nav-item"><a class="nav-link" href="#plateformeprive">PLATEFORME PRIVÉ</a></li>
+            <li class="nav-item"><a class="nav-link" href="#hebergement">L'HÉBERGEMENT</a></li>
+            <li class="nav-item"><a class="nav-link" href="#webcams">WEBCAMs</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+  <!--Le menu sur téléphone-->
+  <div class="offcanvas offcanvas-end bg-dark text-white" tabindex="-1" id="offcanvasNavbar"
+    aria-labelledby="offcanvasNavbarLabel">
+    <div class="offcanvas-header">
+      <h5 id="offcanvasNavbarLabel">Menu</h5>
+      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 zaza">
+        <li class="nav-item"><a class="nav-link text-white" href="#accueil">ACCUEIL</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#moyenspedagogiques">MOYENS PÉDAGOGIQUES</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#plateformeprive">PLATEFORME PRIVÉ</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#hebergement">L'HÉBERGEMENT</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#webcams">WEBCAMs</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<body>
+  <!--Partie accueil, avec l'arrière plan et le texte-->
+  <section id="accueil">
+  <div class="arriereplanavion" style="background-image: url('./img/accueilarriereplanavion.png');">
+    <div class="color-overlay d-flex justify-content-center align-items-center">
+      <div class="ms-md-5 mb-5 container-fluid text-white " style="margin-top: 430px;">
+        <h1 class="ms-md-3 fw-semibold titre" style="line-height: 1.3;">BIENVENUE DANS <br>
+          L’AEROCLUB ACF2L</h1>
+        <div class="row">
+          <div class="col-lg-3 col-12 ms-md-3 ms-0 mt-2">
+            <p class="fw-lighter"><span class="fw-medium">L’Aéro-Club de Frotey-les-Lure, appelé sous
+                le terme ACF2L.</span> Il a pour origine la fusion
+              de l’Aéro-Club de l’Ill siégeant à Vesoul
+              et de l’Aéro-Club Marin-La-Meslée, siégeant
+              à Frotey-les-Lure, au sein de l’Association
+              des Aéro-Clubs de la Bourgogne-Franche-Comté.</p>
+          </div>
+          <div class="col-lg-3 col-12 ms-md-3 ms-0 mt-2">
+            <p class="fw-lighter"><span class="fw-medium">L’aéro-club est une Association Loi 1901,</span>
+              agréée Jeunesse et Sports, adhérente à la
+              FFULM (Fédération Française d’ULM).
+              Association enregistrée n°04674 - -
+              Agrément n° AS70986858. Le siège social
+              demeure 62, Avenue de la République,
+              70200 Lure.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Partie les préstations complémentaires -->
+  <div class="text-center mt-5">
+    <h1 class="fw-medium">Les préstations complémentaires</h1>
+    <p class="mt-4 text-secondary">La formation de pilotes, d’instructeurs et également des baptêmes de l’air <br> sont
+      prises en charge par l’aéroclub ACF2L</p>
+  </div>
+  <!--Listes des 5 prestations complémentaires-->
+  <div class="container mt-5">
+    <div class="row text-center">
+      <div class="col-sm-6 col-md-6 col-lg-2 mx-auto mb-4">
+        <img src="img/Maintenance-des-ULM.png" class="shadow" style="height: 100px; width: 100px; border-radius: 26px;">
+        <p class="mt-4 fw-medium">Maintenance des ULM <br> moteur, structure…</p>
+        <p class="text-secondary">Important pour l'apprentissage</p>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-2 mx-auto mb-4">
+        <img src="img/Montage-des-ULM.png" class="shadow" style="height: 100px; width: 100px; border-radius: 26px;">
+        <p class="mt-4 fw-medium">Montage d’instruments de navigation & d'ULM</p>
+        <p class="text-secondary">Pour mieux connâitre le mécanisme</p>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-2 mx-auto mb-4">
+        <img src="img/Un-Service-Restauration.png" class="shadow"
+          style="height: 100px; width: 100px; border-radius: 26px;">
+        <p class="mt-4 fw-medium">Un service de <br> restauration rapide</p>
+        <p class="text-secondary">Rapide mais à la fois délicieux</p>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-2 mx-auto mb-4">
+        <img src="img/Hebergement.png" class="shadow" style="height: 100px; width: 100px; border-radius: 26px;">
+        <p class="mt-4 fw-medium">Un hébergement <br> studio ou chambres</p>
+        <p class="text-secondary">Vivre dans de bonnes conditions</p>
+      </div>
+      <div class="col-md-6 col-lg-2 mx-auto mb-4">
+        <img src="img/LocalisationEmplacement.png" class="shadow"
+          style="height: 100px; width: 100px; border-radius: 26px;">
+        <p class="mt-4 fw-medium">Location <br> d’emplacement ULM</p>
+        <p class="text-secondary">Les ULM dans les meilleures endroits </p>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- Moynes pédagogiques -->
+  <section id="moyenspedagogiques">
+  <div class="container-fluid mt-5">
+    <section class="position-relative mt-3 overflow-hidden"
+      style="background-image: url('au_vol-au_sol_copie-35.png'); border-radius: 35px; background-size: cover; background-position: center; height: 100vh;">
+      <div class="container h-50 d-flex flex-column">
+        <div class="row mt-auto position-absolute top-0 start-0 ms-4">
+          <div class="col-3">
+            <h1 class="text-light fw-lighter mt-4">Les moyens pédagogiques</h1>
+            <div class="row" style="padding: 80px;"></div>
+            <p class="fw-regular text-light" style="text-align: justify; font-size: 90%;"><span class="fw-semibold">Au sol
+                :</span> une salle OPS et deux salles de cours
+              pour la théorie. Vidéo-projection pendant les leçons et un ordinateur à votre disposition pour travailler
+              les QCMs examen.</p>
+          </div>
+
+          <!-- 3 colonnes vides -->
+          <div class="col-3"></div>
+
+          <div class="col-3" style="margin-top: 65px;">
+            <p class="fw-regular text-light" style="text-align: justify; font-size: 90%;"><span class="fw-semibold">En vol
+                :</span> huit appareils école de formation : trois pendulaires -
+              quatre multiaxes - un autogire.</p>
+          </div>
+
+          <!-- 3 colonnes vides -->
+          <div class="col-3"></div>
+        </div>
+      </div>
+    </section>
+  </div>
+  </section>
+  <!--Plateforme ULM et Aérodrome privé-->
+  <section id="plateformeprive">
+  <div class="container mt-5">
+    <h2 class="text-center fw-semibold mt-4">Plateforme ULM et Aérodrome privé</h2>
+    <div class="row">
+      <!--Partie texte-->
+      <p class="mt-4 text-center w-75 mx-auto">Situé à Frotey-Lés-Lure, l’association vous offre la chance de pratiquer
+        l’aviation légère dans un environnement exceptionnel : la Haute-Saône et ses paysages variés, collines, vallées
+        de la Saône et de l’Ognon,
+        Vosges-Saônoises et plateau des Mille Étangs…, mais aussi les massifs Jurassiens et Vosgiens, tous proches.</p>
+
+      <!--Partie cartes (ce que dispose le site)-->
+      <h4 class="my-3 text-center">Sur le site, nous disposons de :</h4>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 mt-3 g-3">
+      <div class="col">
+        <div class="card rounded-4 shadow position-relative" style="border: none;">
+          <div class="card-body mx-2 my-1 mt-2">
+            <div class="d-flex align-items-center">
+              <img src="icone/logo-avion.png" alt="icone-avion" class="shadow border border-1 rounded-4"
+                style="width: 50px; height: 50px;">
+              <h5 class="card-title fw-semibold ms-3" style="font-size: 1rem;">Une surface totale de 45 hectares
+                dégagés.</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card rounded-4 shadow  position-relative" style="border: none;">
+          <div class="card-body mx-2 my-1 mt-2">
+            <div class="d-flex align-items-center">
+              <img src="icone/logo-rue.png" alt="icone-avion" class="shadow border border-1 rounded-4"
+                style="width: 50px; height: 50px;">
+              <h5 class="card-title fw-semibold ms-3" style="font-size: 1rem;">Deux pistes en X de 800 et 450 m.</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card rounded-4 shadow position-relative" style="border: none;">
+          <div class="card-body mx-2 my-1 mt-2">
+            <div class="d-flex align-items-center">
+              <img src="icone/logo-hydro.png" alt="icone-avion" class="shadow border border-1 rounded-4"
+                style="width: 50px; height: 50px;">
+              <h5 class="card-title fw-semibold ms-3" style="font-size: 1rem;">Un hydrosurface de 8 hectares.</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 mt-5 g-3">
+      <div class="col">
+        <div class="card rounded-4 shadow position-relative" style="border: none;">
+          <div class="card-body mx-2 my-1 mt-2">
+            <div class="d-flex align-items-center">
+              <img src="icone/logo-ordi.png" alt="icone-avion" class="shadow border border-1 rounded-4"
+                style="width: 50px; height: 50px;">
+              <h5 class="card-title fw-semibold ms-3" style="font-size: 1rem;">Locaux administratifs <br> informatisés.
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card rounded-4 shadow position-relative" style="border: none;">
+          <div class="card-body mx-2 my-1 mt-2">
+            <div class="d-flex align-items-center">
+              <img src="icone/logo-cours.png" alt="icone-avion" class="shadow border border-1 rounded-4"
+                style="width: 50px; height: 50px;">
+              <h5 class="card-title fw-semibold ms-3" style="font-size: 1rem;">Salle de cours multimédia avec simulateur
+                de vol.</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card rounded-4 shadow position-relative" style="border: none;">
+          <div class="card-body mx-2 my-1 mt-2">
+            <div class="d-flex align-items-center">
+              <img src="icone/logo-outils.png" alt="icone-avion" class="shadow border border-1 rounded-4"
+                style="width: 50px; height: 50px;">
+              <h5 class="card-title fw-semibold ms-3" style="font-size: 1rem;">Un atelier d'entretien & réparation.
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 mt-5 g-3">
+      <div class="col">
+        <div class="card rounded-4 shadow position-relative" style="border: none;">
+          <div class="card-body mx-2 my-1 mt-2">
+            <div class="d-flex align-items-center">
+              <img src="icone/logo-hangar.png" alt="icone-avion" class="shadow border border-1 rounded-4"
+                style="width: 50px; height: 50px;">
+              <h5 class="card-title fw-semibold ms-3" style="font-size: 1rem;">3 hangars avec surface couverte de 4300
+                m².</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card rounded-4 shadow position-relative" style="border: none;">
+          <div class="card-body mx-2 my-1 mt-2">
+            <div class="d-flex align-items-center">
+              <img src="icone/logo-vaisselle.png" alt="icone-avion" class="shadow border border-1 rounded-4"
+                style="width: 50px; height: 50px;">
+              <h5 class="card-title fw-semibold ms-3" style="font-size: 1rem;">Capacités d'accueil & restauration
+                sur place.</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card rounded-4 shadow position-relative" style="border: none;">
+          <div class="card-body mx-2 my-1 mt-2">
+            <div class="d-flex align-items-center">
+              <img src="icone/logo-wifi.png" alt="icone-avion" class="shadow border border-1 rounded-4"
+                style="width: 50px; height: 50px;">
+              <h5 class="card-title fw-semibold ms-3" style="font-size: 1rem;">Connexion WIFI gratuit <br> dans
+                toute la base.</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <!--Partie Appartement (hébergement à la base d'ULM)-->
+  <section id="hebergement">
+  <div class="container mt-5">
+    <div class="row">
+      <!--Partie description de l'appartement-->
+      <div class="col-md-6 col-lg-6 mt-3">
+        <h3 class="fw-bolder">Appartement</h3>
+        <h6 class="text-black-50">L'hébergement à la base d'ULM</h6>
+        <h4 class="fw-bolder mt-2">100€ / <span class="fw-normal caution" style="font-size: 19px;">la caution</span>
+        </h4>
+        <button type="button"
+          class="btn rounded-pill mt-3 w-sm-100 w-md-50 w-lg-25 px-5 fw-semibold lebouton ">Réserver</button>
+        <div class="d-flex mt-4">
+          <div class="me-3">
+            <img src="img/iconedraps.png" alt="" style="height: 40px; width: 40px;">
+            <p style="font-size: 12px; margin-top: 5px;">Draps</p>
+          </div>
+          <div class="me-3 ms-3">
+            <img src="img/iconeletricite.png" alt="" style="height: 40px; width: 40px;">
+            <p style="font-size: 12px; margin-top: 5px;">Électricité</p>
+          </div>
+          <div class="me-3 ms-3">
+            <img src="img/iconekitchenette.png" alt="" style="height: 40px; width: 40px;">
+            <p style="font-size: 12px; margin-top: 5px;">Kitchenette</p>
+          </div>
+        </div>
+        <p class="mt-2" style="font-size: 13px; width: 90%;">
+          Hébergez-vous dans les meilleures conditions en vivant au sein de nos maisons de qualité. L'appartement est
+          composé de plusieurs
+          pièces afin que vous puissiez y vivre comme chez vous. La maison vous fournis des draps dans un lit
+          confortable en 140,
+          une télévision de qualité, , d’une salle de bain : composé d'un lavabo, d'une douche et d'un W.C.<br> <a
+            href="#" style="text-decoration: none;"><span class="fw-bolder text-dark">Voir plus </span></a>
+        </p>
+        <div class="d-flex">
+          <div class="me-5">
+            <div class="d-flex align-items-center">
+              <img class="rounded mt-3" src="img/fleche.png" alt="" style="height: 20px; width: 20px;">
+              <span class="ms-2 mt-3" style="font-size: 11px">Équipé d’une kitchenette</span>
+            </div>
+            <div class="d-flex align-items-center mt-2">
+              <img class="rounded mt-3" src="img/fleche.png" alt="" style="height: 20px; width: 20px;">
+              <span class="ms-2 mt-3" style="font-size: 11px">Lit en 140</span>
+            </div>
+            <div class="d-flex align-items-center mt-2">
+              <img class="rounded mt-3" src="img/fleche.png" alt="" style="height: 20px; width: 20px;">
+              <span class="ms-2 mt-3" style="font-size: 11px">Électricité en plus</span>
+            </div>
+          </div>
+
+          <div class="me-5">
+            <div class="d-flex align-items-center">
+              <img class="rounded mt-3" src="img/fleche.png" style="height: 20px; width: 20px;">
+              <span class="ms-2 mt-3" style="font-size: 11px"> Télévision</span>
+            </div>
+            <div class="d-flex align-items-center mt-2">
+              <img class="rounded mt-3" src="img/fleche.png" style="height: 20px; width: 20px;">
+              <span class="ms-2 mt-3" style="font-size: 11px">Draps fournis</span>
+            </div>
+            <div class="d-flex align-items-center mt-2">
+              <img class="rounded mt-3" src="img/fleche.png" style="height: 20px; width: 20px;">
+              <span class="ms-2 mt-3" style="font-size: 11px">Lavabo,douche, W.C</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Les images de l'hébergement de l'appartement-->
+      <div class=" col-md-6 col-lg-6 mt-3">
+        <div class="card" style="border: none;">
+          <img src="img/imagecuisine.png" style="width: 100%;  border-radius: 45px; border: none;">
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-6 mt-3">
+            <img src="img/imagelitrose.png" style="width: 100%;  border-radius: 45px; border: none;">
+          </div>
+          <div class="col-md-6 col-lg-6 mt-3">
+            <img src="img/imagesalledebain.png" style="width: 100%;  border-radius: 45px; border: none;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!--Partie Maison (hébergement à la base d'ULM)-->
+  <div class="container mt-3">
+    <div class="row">
+      <!--Partie description de la Maison-->
+      <div class=" col-md-6 col-lg-6 mt-3">
+        <h3 class="fw-bolder">Maison</h3>
+        <h6 class="text-black-50">L'hébergement à la base d'ULM</h6>
+        <h4 class="fw-bolder mt-2">100€ / <span class="fw-normal caution" style="font-size: 19px;">la caution</span>
+        </h4>
+        <button type="button"
+          class="btn rounded-pill mt-3 w-sm-100 w-md-50 w-lg-25 px-5 fw-semibold lebouton">Réserver</button>
+        <div class="d-flex mt-3">
+          <div class="me-3">
+            <img src="img/iconedraps.png" style="height: 40px; width: 40px;">
+            <p style="font-size: 12px; margin-top: 5px;">Draps</p>
+          </div>
+          <div class="me-3 ms-3">
+            <img src="img/iconetele.png" style="height: 40px; width: 40px;">
+            <p style="font-size: 12px; margin-top: 5px;">Télévision</p>
+          </div>
+          <div class="me-3 ms-3">
+            <img src="img/iconetelesalledebainbleu.png" style="height: 40px; width: 40px;">
+            <p style="font-size: 12px; margin-top: 5px;">Salle de bain</p>
+          </div>
+        </div>
+        <p class="mt-3" style="font-size: 13px; width: 90%;">
+          Hébergez-vous dans les meilleures conditions en vivant au sein de nos maisons de qualité.
+          L'appartement est composé de plusieurs pièces afin que vous puissiez y vivre comme chez vous.
+          La maison vous fournis des draps dans un lit confortable en 140, une télévision de qualité, ,
+          d’une salle de bain : composé d'un lavabo, d'une douche et d'un W.C.<br> <a href="#"
+            style="text-decoration: none;"><span class="fw-bolder text-dark">Voir plus </span></a>
+        </p>
+        <div class="d-flex">
+          <div class="me-5">
+            <div class="d-flex align-items-center">
+              <img class="rounded mt-3" src="img/fleche.png" alt="" style="height: 20px; width: 20px;">
+              <span class="ms-2 mt-3" style="font-size: 11px">Télévision</span>
+            </div>
+            <div class="d-flex align-items-center mt-2">
+              <img class="rounded mt-3" src="img/fleche.png" alt="" style="height: 20px; width: 20px;">
+              <span class="ms-2 mt-3" style="font-size: 11px">Lit en 140</span>
+            </div>
+          </div>
+
+          <div class="me-5">
+            <div class="d-flex align-items-center">
+              <img class="rounded mt-3" src="img/fleche.png" style="height: 20px; width: 20px;">
+              <span class="ms-2 mt-3" style="font-size: 11px">Lavabo,
+                douche, W.C.</span>
+            </div>
+            <div class="d-flex align-items-center mt-2">
+              <img class="rounded mt-3" src="img/fleche.png" style="height: 20px; width: 20px;">
+              <span class="ms-2 mt-3" style="font-size: 11px">Draps fournis</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Les images de l'hébergement de la maison-->
+      <div class="col-md-6 mt-3">
+        <div class="card" style="border: none;">
+          <img src="img/imagelitblanc.png" style="width: 100%;  border-radius: 45px; border: none;">
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-6 mt-3">
+            <img src="img/imagedrapsbeige.png" style="width: 100%;  border-radius: 45px; border: none;">
+          </div>
+          <div class="col-md-6 col-lg-6 mt-3">
+            <img src="img/imagetelevision.png" style="width: 100%;  border-radius: 45px; border: none;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--WEBCAMs-->
+  <section id="webcams">
+  <div class="container mt-5">
+    <h2 class="text-center fw-semibold mt-4">WEBCAMs</h2>
+    <p class="mx-auto mt-4 w-75 text-center">La base ULM de Frotey-Lés-Lure dispose
+      d'un système de vidéo-surveillance/webcams sur IP. Il s’agit
+      d’un ensemble de caméras vidéo connecté au réseau Ethernet
+      de la base qui donne une vue sur les pistes. Il s’agit d’un
+      ensemble de caméras vidéo connecté au réseau Ethernet de la
+      base qui donne une vue sur les pistes.</p>
+    <p class="text-center mt-4 fw-semibold">L’installation de vidéosurveillance de la base comprend actuellement 3
+      webcams/caméras : </p>
+    <div class="row">
+      <div class="col-sm-4 mb-3 mb-sm-0 mt-3">
+        <div class="card" style="border: none;">
+          <img src="img/cameranord.png" class="card-img-top" style="border-radius: 45px;">
+          <p class="text-center mt-3">Une caméra placée au NORD</p>
+        </div>
+      </div>
+      <div class="col-sm-4 mb-3 mb-sm-0 mt-3">
+        <div class="card" style="border: none;">
+          <img src="img/cameraouest.png" class="card-img-top" style="border-radius: 45px; border: none">
+          <p class="text-center mt-3">Une caméra placée à l’OUEST </p>
+        </div>
+      </div>
+      <div class="col-sm-4 mt-3">
+        <div class="card" style="border: none;">
+          <img src="img/cameradusud.png" class="card-img-top" style="border-radius: 45px;">
+          <p class="text-center mt-3">Une caméra placée au SUD</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- Galerie Photos -->
+  <div class="container-fluid mt-5">
+    <h2 class="text-center fw-semibold mt-4">Galeries photos</h2>
+    <div class="row justify-content-center d-flex mt-4">
+      <div id="caroussel-galerie-image" class="carousel slide w-100">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#caroussel-galerie-image" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#caroussel-galerie-image" data-bs-slide-to="1"
+            aria-label="Image 2"></button>
+          <button type="button" data-bs-target="#caroussel-galerie-image" data-bs-slide-to="2"
+            aria-label="Image 3"></button>
+          <button type="button" data-bs-target="#caroussel-galerie-image" data-bs-slide-to="3"
+            aria-label="Image 4"></button>
+          <button type="button" data-bs-target="#caroussel-galerie-image" data-bs-slide-to="4"
+            aria-label="Image 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="galerie-photo/ulm-12.jpg" class="d-block w-100 rounded-4" alt="Image d'ULM de face">
+            <div class="carousel-caption d-none d-md-block">
+
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="galerie-photo/ulm-4.jpg" class="d-block w-100 rounded-4" alt="Image d'ULM dans les montagnes">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="galerie-photo/ulm-5.jpg" class="d-block w-100 rounded-4" alt="Image d'ULM dans la neige">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="galerie-photo/ulm-10.jpg" class="d-block w-100 rounded-4" alt="Image d'ULM en vol">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="galerie-photo/ulm-8.jpg" class="d-block w-100 rounded-4" alt="Image d'ULM en vol">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#caroussel-galerie-image"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#caroussel-galerie-image"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </div>
+  </div>
+  <!--Partie Nos Tarif-->
+  <section class="mt-5" style="border-radius: 35px;">
+    <div class="container-fluid position-relative">
+      <!--Image de l'arrière plan d'un avion ULM-->
+      <img src="img/avionulm.png" class="img-fluid w-100 responsive-image"
+        style="object-fit: cover; border-radius: 22px; background-position: center; background-attachment: fixed;">
+      <!--Partie des 3 ULM-->
+      <div class="container position-absolute top-50 start-50 translate-middle">
+        <h1 class="fw-semibold text-light mb-2 text-center">Nos tarifs</h1>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-3 px-4">
+            <div class="card p-2" style="border-radius: 22px; background-color: rgba(0, 0, 0, 0.55);">
+              <div class="card-body">
+                <h5 class="card-title text-light fw-semibold nomdelavion" style="font-size: 1.7rem;">
+                  Baptême de l’air <br>ULM Pendulaire</h5>
+                <p class="card-text text-light fw-light" style="font-size: 0.9rem;">
+                  Accompagné par un instructeur diplômé, vous découvrez le vol en ULM.
+                  Survol de la région : découvrez les paysages superbes de Moffans-et-Vacheresse,
+                  Lyoffans et Roye. Vivez des moments inoubliables avec 20 minutes de vol dans une ambiance totalement
+                  détendue et conviviale
+                </p>
+                <h5 class="card-title text-light fw-semibold" style="font-size: 1.7rem;">190,00 €</h5>
+                <div class="d-grid gap-2 mt-4">
+                  <button
+                    class="btn rounded-pill text-start text-light fw-medium border border-light d-flex justify-content-between align-items-center p-2 px-3"
+                    type="button">
+                    Réserver <img src="img/flecheblanche.png" style="width: 20px; height: 20px;">
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-3 px-4">
+            <div class="card p-2" style="border-radius: 22px; background-color: rgba(0, 0, 0, 0.55);">
+              <div class="card-body">
+                <h5 class="card-title text-light fw-semibold nomdelavion" style="font-size: 1.7rem;">
+                  Baptême de l’air <br>ULM AutoGyro</h5>
+                <p class="card-text text-light fw-light" style="font-size: 0.9rem;">
+                  Un instructeur diplômé vous accompagnera tout au long de ce vol. Pendant 30 minutes, initiez-vous
+                  au maniement pour la 1ère fois les commandes de cet appareil simple d'utilisation et découvrez
+                  les sensations d'un vol à bord d'un ULM, en toute sécurité grâce au système de double commande.
+                </p>
+                <h5 class="card-title text-light fw-semibold" style="font-size: 1.7rem;">190,00 €</h5>
+                <div class="d-grid gap-2 mt-4">
+                  <button
+                    class="btn rounded-pill text-start text-light fw-medium border border-light d-flex justify-content-between align-items-center p-2 px-3"
+                    type="button">
+                    Réserver <img src="img/flecheblanche.png" style="width: 20px; height: 20px;">
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-12 col-sm-12 mt-3 px-4">
+            <div class="card p-2" style="border-radius: 22px; background-color: rgba(0, 0, 0, 0.55);">
+              <div class="card-body">
+                <h5 class="card-title text-light fw-semibold nomdelavion" style="font-size: 1.7rem;">
+                  Baptême de l’air <br>ULM multi-axes</h5>
+                <p class="card-text text-light fw-light" style="font-size: 0.9rem;">
+                  Un ULM dont le comportement vous étonnera par sa ressemblance avec celui d'un avion !
+                  Un instructeur diplômé vous accompagnera tout au long de ce vol d'initiation. Pendant 30 minutes,
+                  initiez-vous au maniement des commandes de base de cet appareil en toute sécurité.
+                </p>
+                <h5 class="card-title text-light fw-semibold" style="font-size: 1.7rem;">190,00 €</h5>
+                <div class="d-grid gap-2 mt-4">
+                  <button
+                    class="btn rounded-pill text-start text-light fw-medium border border-light d-flex justify-content-between align-items-center p-2 px-3"
+                    type="button">
+                    Réserver <img src="img/flecheblanche.png" style="width: 20px; height: 20px;">
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Partie Voir plus -->
+          
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-4 px-4">
+            <div class="card p-2" style="border-radius: 22px; background-color: rgba(0, 0, 0, 0.55);">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <h5 class="card-title text-light fw-semibold nomdelavion" style="font-size: 1.7rem;">Voir plus</h5>
+                  <button
+                    class="btn rounded-pill text-light border border-light d-flex justify-content-between align-items-center p-2 px-3"
+                    type="button">
+                    <img src="img/flecheblanche.png" style="width: 20px; height: 20px;">
+                  </button>
+                </div>
+                <p class="card-text text-light fw-light" style="font-size: 0.9rem;">
+                  Découvrez l'ensemble des caractéristiques <br> et de plusieurs photos du Baptême <br>de l’air
+                                    ULM Pendulaire</p>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-4 px-4">
+            <div class="card p-2" style="border-radius: 22px; background-color: rgba(0, 0, 0, 0.55);">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <h5 class="card-title text-light fw-semibold nomdelavion" style="font-size: 1.7rem;">Voir plus</h5>
+                  <button
+                    class="btn rounded-pill text-light border border-light d-flex justify-content-between align-items-center p-2 px-3"
+                    type="button">
+                    <img src="img/flecheblanche.png" style="width: 20px; height: 20px;">
+                  </button>
+                </div>
+                <p class="card-text text-light fw-light" style="font-size: 0.9rem;">
+                  Découvrez l'ensemble des caractéristiques <br> et de plusieurs photos du Baptême <br>de l’air
+                                    ULM AutoGyro</p>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-12 col-sm-12 mt-4 px-4">
+            <div class="card p-2" style="border-radius: 22px; background-color: rgba(0, 0, 0, 0.55);">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <h5 class="card-title text-light fw-semibold nomdelavion" style="font-size: 1.7rem;">Voir plus</h5>
+                  <button
+                    class="btn rounded-pill text-light border border-light d-flex justify-content-between align-items-center p-2 px-3"
+                    type="button">
+                    <img src="img/flecheblanche.png" style="width: 20px; height: 20px;">
+                  </button>
+                </div>
+                <p class="card-text text-light fw-light" style="font-size: 0.9rem;">
+                  Découvrez l'ensemble des caractéristiques <br> et de plusieurs photos du Baptême de l’air<br>
+                  ULM multi-axes</p>
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+<!--Formulaire-->
+  <div class="container mt-5">
+    <h4 class="my-4 fw-semibold fs-2">Contactez-nous</h4>
+    <div class="row">
+        <div class="col-8">
+            <div class="row mt-2">
+                <div class="col-6">
+                    <input type="email" class="form-control rounded-pill p-3 fw-semibold" style="background-color: #E9F3FF;" id="Email" aria-describedby="emailHelp" placeholder=" Email">
+                </div>
+                <div class="col-6">
+                    <input type="phone" class="form-control rounded-pill p-3 fw-semibold" style="background-color: #E9F3FF;" id="Phone" aria-describedby="phoneHelp" placeholder=" Numéro de Téléphone">
+                </div>
+            </div>
+
+            <div class="row mt-2">
+                <div class="col-12">
+                <input type="name" class="form-control rounded-pill p-3 fw-semibold" style="background-color: #E9F3FF;" id="Prénom" aria-describedby="nameHelp" placeholder=" Nom">
+                </div>
+            </div>
+
+            <div class="row mt-2">
+                <div class="col-12">
+                <textarea class="form-control rounded-pill p-3 fw-semibold" style="background-color: #E9F3FF;" id="Textarea" placeholder=" Message"></textarea>
+                </div>
+            </div>
+
+            <div class="row mt-2">
+                <div class="col-12">
+                    <button type="submit" class="btn rounded-pill text-light p-3" style="background-color: #789DBC;">Confirmer</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-4">
+            <div class="card p-4 rounded-4">
+            <!-- <img src="icone/logo-ordi.png" class="rounded-4 w-75 h-75" id="logo"> -->
+            <h5 class="card-title">Notre Newsletter</h5>
+            <p class="card-text fw-light py-2">Rejoignez notre communauté et ne manquez aucune nouveauté !</p>
+            <input type="email" class="form-control rounded-pill p-2 fw-semibold" style="background-color: #E9F3FF;" id="Email" aria-describedby="emailHelp" placeholder=" Email">
+            <button type="submit" class="btn rounded-pill text-light p-2 mt-3" style="background-color: #789DBC;">Confirmer</button>
+        </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- Footer -->
+<footer class="footer py-4" style="background-color: #465a79; color: white;">
+  <div class="container">
+      <div class="row text-center text-md-start">
+          <div class="col-md-3 mb-4 footer-logo">
+              <img src="logo.png" alt="Logo ACF2L" style="height: 50px;">
+              <p>ACF2L - Aéroclub de Frotey-lès-Lure</p>
+          </div>
+
+          <!-- Navigation -->
+          <div class="col-md-3 mb-4">
+              <h5>Navigation</h5>
+              <ul class="list-unstyled">
+                  <li><a href="#" class="text-white text-decoration-none">Accueil</a></li>
+                  <li><a href="#" class="text-white text-decoration-none">Moyens Pédagogiques</a></li>
+                  <li><a href="#" class="text-white text-decoration-none">Plateforme Privée</a></li>
+                  <li><a href="#" class="text-white text-decoration-none">L'Hébergement</a></li>
+              </ul>
+          </div>
+
+          <!-- Services -->
+          <div class="col-md-3 mb-4">
+              <h5>Liens</h5>
+              <ul class="list-unstyled">
+                  <li><a href="#" class="text-white text-decoration-none">Initiation et Baptême de l'air</a></li>
+                  <li><a href="#" class="text-white text-decoration-none">Formation au Pilotage ULM</a></li>
+                  <li><a href="#" class="text-white text-decoration-none">Location d'ULM</a></li>
+                  <li><a href="#" class="text-white text-decoration-none">Entretien et Maintenance des ULM</a></li>
+              </ul>
+          </div>
+
+          <!-- Suivez-nous -->
+          <div class="col-md-3 mb-4">
+              <h5>Suivez-nous</h5>
+              <ul class="list-unstyled">
+                  <li><a href="https://www.facebook.com/aeroclubULM" class="text-white text-decoration-none">Facebook</a></li>
+                  <li><a href="https://www.instagram.com/aeroclubULM" class="text-white text-decoration-none">Instagram</a></li>
+                  <li><a href="https://www.youtube.com/c/aeroclubULM" class="text-white text-decoration-none">YouTube</a></li>
+                  <li><a href="https://www.linkedin.com/company/aeroclubULM" class="text-white text-decoration-none">LinkedIn</a></li>
+              </ul>
+          </div>
+      </div>
+      
+      <!-- Informations de contact -->
+      <div class="row mt-3 text-center text-md-start">
+          <div class="col-md-4 contact-info">
+              <img src="map-logo.png" alt="Adresse" style="height: 20px; margin-right: 10px;"> 62, Avenue de la République, 70200 Lure
+          </div>
+          <div class="col-md-4 contact-info">
+              <img src="phone-logo.png" alt="Téléphone" style="height: 20px; margin-right: 10px;"> +33 16 55 62 24
+          </div>
+          <div class="col-md-4 contact-info">
+              <img src="mail-logo.png" alt="Email" style="height: 20px; margin-right: 10px;"> acf2l@gmail.com
+          </div>
+      </div>
+
+      <!-- Droits d'auteur -->
+      <div class="text-center mt-4">
+          <p>© 2024 ACF2L - Tous droits réservés</p>
+      </div>
+  </div>
+</footer>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>

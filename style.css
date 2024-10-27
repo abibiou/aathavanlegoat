@@ -1,0 +1,77 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-brand{
+    line-height: 70px;
+}
+.menuavion{
+    height: 70px;
+    background-color:#5e718f;
+}
+.navbar-nav .nav-link {
+    margin: 0 15px; 
+    color: aliceblue;
+}
+
+.arriereplanavion {
+    background-size: cover;
+    min-height: 90vh;
+    background-position: center;
+}
+.nomdelavion{
+    line-height: 2.4rem;
+}
+
+.responsive-image {
+    height: 850px;
+}
+.lebouton{
+    background-color: #FFFFFF;
+    color: black;
+    border-color: black;
+}
+
+.lebouton:hover {
+    background-color: #FEF9F2;
+    color: black; 
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 992px) {
+    .responsive-image {
+        min-height: 1300px;
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    .responsive-image {
+        min-height: 1900px;
+        text-align: center;
+    }
+}
+@media (max-width: 576px) {
+    .responsive-image {
+        min-height: 2150px;
+    }
+    .nostarifs {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .arriereplanavion {
+        min-height: 70vh;
+        background-position: center;
+
+    }
+}
+
+@media (max-width: 576px) {
+    .arriereplanavion {
+        min-height: 60vh;
+        background-position: center;
+    }
+}
+html {
+    scroll-behavior: smooth;
+}
